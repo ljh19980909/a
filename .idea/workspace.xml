@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93b64d19-a88d-494e-a5c0-8513cc8932fb" name="Default Changelist" comment="" />
+    <list default="true" id="93b64d19-a88d-494e-a5c0-8513cc8932fb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/ergouzi/haha/haha.js" beforeDir="false" afterPath="$PROJECT_DIR$/ergouzi/haha/haha.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -204,15 +206,16 @@
       <updated>1605778290495</updated>
       <workItem from="1605778292937" duration="2385000" />
       <workItem from="1605834953115" duration="3550000" />
-      <workItem from="1605856185106" duration="1417000" />
+      <workItem from="1605856185106" duration="1437000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7352000" />
+    <option name="totallyTimeSpent" value="7372000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19225037" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
