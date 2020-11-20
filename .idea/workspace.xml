@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93b64d19-a88d-494e-a5c0-8513cc8932fb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ergouzi/a/aaa.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ergouzi/a/a.html" beforeDir="false" afterPath="$PROJECT_DIR$/ergouzi/a/a.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ergouzi/a/aa.html" beforeDir="false" afterPath="$PROJECT_DIR$/ergouzi/a/aa.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -27,13 +28,13 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="haha" value="1" />
-          <entry key="html" value="4" />
+          <entry key="html" value="5" />
           <entry key="js" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="4" />
+          <entry key="HTML" value="5" />
           <entry key="JavaScript" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
@@ -41,13 +42,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="haha" value="22" />
-          <entry key="html" value="15" />
+          <entry key="html" value="17" />
           <entry key="js" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="15" />
+          <entry key="HTML" value="17" />
           <entry key="JavaScript" value="41" />
           <entry key="PLAIN_TEXT" value="22" />
         </counts>
@@ -86,11 +87,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ergouzi/a/aa.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state>
+              <caret column="23" selection-start-column="23" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ergouzi/a/aaa.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -114,6 +124,7 @@
         <option value="$PROJECT_DIR$/ergouzi/src/App.js" />
         <option value="$PROJECT_DIR$/ergouzi/a/haha" />
         <option value="$PROJECT_DIR$/ergouzi/a/a.html" />
+        <option value="$PROJECT_DIR$/ergouzi/a/aaa.html" />
         <option value="$PROJECT_DIR$/ergouzi/a/aa.html" />
       </list>
     </option>
@@ -197,12 +208,12 @@
       <option name="presentableId" value="Default" />
       <updated>1605778290495</updated>
       <workItem from="1605778292937" duration="2385000" />
-      <workItem from="1605834953115" duration="3170000" />
+      <workItem from="1605834953115" duration="3550000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5555000" />
+    <option name="totallyTimeSpent" value="5935000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
@@ -266,8 +277,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ergouzi/a/aa.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ergouzi/a/aaa.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
