@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			li {
+				width: 50px;
+				text-align: center;
+				line-height: 50px;
+				border: 1px solid red;
+				list-style: none;
+				float: left;
+				border-radius: 50%;
+				margin-left: 20px;
+			}
+
+			div {
+				width: 50px;
+				text-align: center;
+				line-height: 50px;
+				border: 1px solid blue;
+				list-style: none;
+				float: left;
+				border-radius: 50%;
+				margin-left: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<li>0</li>
+		<li>0</li>
+		<li>0</li>
+		<li>0</li>
+		<li>0</li>
+		<li>0</li>
+		<div id="blue">0</div>
+		<br>
+		<br>
+		<br>
+		<br>
+	</body>
+	<script type="text/javascript">
+		//随机函数
+		function Random(m, n) {
+			return Math.floor(Math.random() * (n - m + 1) + 1);
+		}
+		// 1.编写一个掷骰子100次的程序，并打印出各种点数出现的次数
+		var a = 0, //出现1的次数
+			b = 0, //出现2的次数
+			c = 0, //出现3的次数
+			d = 0, //出现4的次数
+			e = 0, //出现5的次数
+			f = 0; //出现6的次数
+		for (var i = 0; i < 100; i++) {
+			var x = Random(1, 6); //出现的随机数都赋给一个变量
+			switch (x) {
+				case 1:
+					a++; //出现1的次数依次累加
+					break;
+				case 2:
+					b++; //出现2的次数依次累加
+					break;
+				case 3:
+					c++; //出现3的次数依次累加
+					break;
+				case 4:
+					d++; //出现4的次数依次累加
+					break;
+				case 5:
+					e++; //出现5的次数依次累加
+					break;
+				case 6:
+					f++; //出现6的次数依次累加
+					break;
+			}
+		}
+		document.write('1出现的次数：' + a + '<br>' + '2出现的次数：' + b + '<br>' + '3出现的次数：' + c + '<br>' + '4出现的次数：' +
+			d + '<br>' + '5出现的次数：' + e + '<br>' + '6出现的次数：' + f + '<br>')
+
+
+
+		// 2.双色球
+		// 1.有七个数,分前六个和后一个
+		// 2.前六个数1-33,后一个1-16
+		// 3.如果有小于10的数字前面补0
+		// 4.前六个数不能重复
+		var red = document.getElementsByTagName('li');
+		var blue = document.getElementById('blue');
+		// 红球
+		var x = []; //取一个数组存放所有随机数
+		for (var i = 0; i < red.length; i++) {
+			reds = Random(1, 33); //reds用来获取1-33随机数
+			red[i].innerHTML = reds < 10 ? '0' + reds : reds; //拼接<10的数字前面加0
+			x.indexOf(reds) < 0 ? x.push(reds) : i--; //查重
+		}
+
+
+		//蓝球
+		var blues = Random(1, 16);
+		blue.innerHTML = blues < 10 ? '0' + blues : blues;
+	</script>
+</html>

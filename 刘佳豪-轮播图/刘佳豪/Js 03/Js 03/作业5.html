@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+	<script type="text/javascript">
+		// 质数
+		// for (i = 2; i < 101; i++) {
+		// 	var be = true;
+		// 	// 假设所有人进去都是给同样的东西
+		// 	for (j = 2; j < i; j++) {
+		// 		if (i % j == 0) {
+		// 			// 进入之后又给了一个不同的
+		// 			be = false;
+		// 			// 进行筛选后有不同的不要
+		// 			break;
+		// 		}
+		// 	}
+		// 	if (be == true) {
+		// 		// 剩下的都要
+		// 		document.write(i + ' ')
+		// 	}
+		// }
+		var s = 0;
+		var cs = 0;
+		for(var i=100;i>1;i--){
+			if (i == 2) {
+				document.write(i + "<br/>")
+				break;
+			}
+			for (var j = 2; j <= i; j++) {
+				s = i % j;
+				if (j == i) {
+					document.write((i + "<br/>"))
+				} else if (s != 0) {
+					continue;
+				} else {
+					break;
+				}
+			}
+		}
+	</script>
+</html>

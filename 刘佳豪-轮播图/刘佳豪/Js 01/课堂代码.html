@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			#haha{
+				color: aliceblue;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 id="haha">哈哈</h1>
+		<input type="text" name="" id="name" value="666" />
+	</body>
+	<script type="text/javascript">
+		// alert('你真棒！！！');
+		// console.log('此输出用法用于代码调试');
+		// prompt('请输入密码：');
+		// document.write('你真棒！')
+		var liu = document.getElementById('haha');
+		liu.style.color = 'green';
+		document.getElementById('name').value = '厉害';
+		liu.innerHTML = '牛逼';
+		
+		var GET_UP = 8;
+		var wake_up = 7;
+		if(wake_up > GET_UP){
+			document.write('起床');
+			document.write('洗脸');
+			document.write('刷牙');
+			document.write('洗头');
+			document.write('吃饭');
+			document.write('走路到班');
+			var arrive_time = wake_up + 2;
+			if (arrive_time > 9){
+				document.write('做俯卧撑');
+			}else{
+				document.write('进班学习');
+			}
+		}else{
+			document.write('继续睡觉');
+		}
+		// 1.数值 number:整型 小数
+		var age = 20;
+		console.log(age);
+			age = 30;
+		console.log(age);
+		// 2.字符串 string:用引号包着的叫字符串,
+		var name = "牛逼";
+		// 3.布尔类型或boolean类型,非真即假,只有两个值:true,false;
+		var be_married = true;
+		// 4.null 空类型
+		var empty = null;
+		console.log(empty);
+		// 5.undefined(未定义)
+		var un = undefined;
+		// 6.批量声明变量
+		var a = 1, b = 2, c = 3;
+		console.log(a,b,c);
+		c = b;
+		a = c;
+		console.log('c='+c);
+		// 判断变量的值类型
+		// typeof
+		var ab = 1;
+		console.log('ab类型:'+typeof(ab)); // typeof(ab) 获取当前变量的类型
+		ab = '124';
+		console.log('ab类型:'+typeof(ab));
+		ab = true;
+		console.log('ab类型:'+typeof(ab));
+		var aa;
+		console.log('aa类型:'+typeof(aa));
+		// ascll码表
+		// js弱类型语言。
+		// 声明变量时有区别，int aa = 22;
+		/* 运算符:
+			1、算术运算符： +、-、*、/、%、++、--
+			2、赋值运算符：=
+			3、复合运算符：+=、-=、*=、/=、%=
+			4、关系（比较）运算符：>、<=、>=、==、!=、===、!==。运算的结果非true即false
+			5、逻辑运算符：与或非。
+			   与 and：&&    真真为真 
+			   或 or：||     一真为真 
+			   非 no：!		 取反
+		*/
+		// 算术运算符
+		var a = 10, b = 3, c;
+		c = a + b;
+		console.log('c=' + c);
+		c = a / b;
+		console.log('c=' + c);
+		// c = a % b;
+		// console.log('c=' + c);
+		// 可以对小数保留位数：number值.toFixed(n),n几位小数
+		console.log('c=' + c.toFixed(2));
+		// 递增 递减
+		var x = 1, y = 2, z;
+		x++; // x = x + 1;
+		++x; // x = x + 1;
+		console.log('x='+x);
+		z = y++; // ++在前，先加再返回。++在后边，先返回在相加。
+		console.log('z='+z);
+		console.log('y='+y);
+		var xx = 1,yy = 1,zz;
+		zz = ++xx + xx++;
+		console.log('zz='+zz);
+		console.log('xx='+xx);
+		zz = yy++ + ++yy;
+		console.log('zz='+zz);
+		// 复合运算符
+		var p = 1, p2 = 2;
+		p += 1; // p = p + 1;
+		console.log(p);
+		// 关系运算符
+		// var x1 = 7, x2 = 6, x3 = 10, result;
+		// result = x1 > x2;
+		// console.log('result:' + result);
+		// result = x2 > x3;
+		// console.log('result:' + result);
+		// var x1 = 10, x2 = 6, x3 = 10, result;
+		// 纯字符串对比，按照ascll码表的顺序对比
+		// var a = 'b', b = 'a';
+		// result = a > b;
+		// console.log('result:' + result);
+		var a = 10, b = '10';
+		// 如果数字参数比较，1、先转换类型（整形）2 对比。
+		// result = a == b; // 只针对值判断
+		// console.log('result:' + result);
+		// === 先判刑类型是否相等，在判断值是否相等。
+		result = a !== b;
+		console.log('result:' + result);
+		// 逻辑运算符
+		var x1 = 7, x2 = 6, x3 = 10, result;
+		// result = x1 > x2 && x2 > x3;
+		// console.log('result:' + result);
+		result = x1 < x2 || x2 > x3;
+		console.log('result:' + result);
+		// !x1  第一步、x1转换为布尔值，2、对转换的结果取反。
+		result = !x1; //  x1 等于后边的值（0、''、false、null、undefined）转换为布尔值false。
+		console.log('result:' + result);
+		/*
+		  与短路： 如果&&左侧为false（假），&&后边的表达式不执行。
+		  或短路： 如果||左侧为true（真），||后边的表达式不执行。
+		*/
+		var x = 3, y = 5, z = 1;
+		// x > y && z++; 
+		// console.log(z);
+		// x < y || z++;
+		// console.log(z);
+	</script>
+</html>
